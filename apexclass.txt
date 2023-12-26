@@ -1,0 +1,10 @@
+public class Accountdetailsclass{
+
+
+	public static void(list<Account>){
+
+
+	listofacc = Acc
+}
+
+}
