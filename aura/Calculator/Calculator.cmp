@@ -1,0 +1,25 @@
+<aura:component controller = "CaluclatorContrl">
+    <aura:attribute name= "fnumber" type = "integer"/>
+    <aura:attribute name = "snumber" type = "integer"/>
+    <aura:attribute name = "result" type = "integer"/>
+    
+    <br/>
+    <b> Caluclator Example</b>
+    <div>
+        <div>
+            <ui:inputnumber label = "First Number" value = "{!v.fnumber}"/>
+        </div>
+        
+        <div>
+            <ui:inputnumber label = "Second Number" value = "{!v.snumber}"/>
+            
+        </div>
+        <div>
+            <ui:inputnumber label = "Result" value = "{!v.result}"/>
+        </div>
+        
+        <ui:button label = "save" press ="{!c.caluclator}" class ="button"/>
+        </div>
+    
+    
+</aura:component>

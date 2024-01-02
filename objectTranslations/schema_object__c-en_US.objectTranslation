@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>schema object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>schema objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- last date --></label>
+        <name>last_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- name --></label>
+        <name>name__c</name>
+    </fields>
+    <fields>
+        <label><!-- phone number --></label>
+        <name>phone_number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
